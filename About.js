@@ -4,7 +4,7 @@ import SolutionStep from "./SolutionStep";
 import "../Styles/About.css";
 
 function About() { 
-  return (
+  return ( 
     <div className="about-section" id="about">
       <div className="about-image-content">
         <img src={Doctor} alt="Doctor Group" className="about-image1" />

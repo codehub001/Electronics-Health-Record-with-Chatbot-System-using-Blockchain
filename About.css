@@ -7,7 +7,7 @@
     background: linear-gradient(to right, #ECF2FF, #FBFCFF);
 }
 /* Image */
-.about-image-content {
+.about-image-content { 
     width: 50%;
     max-width: 100%;
     text-align: center;

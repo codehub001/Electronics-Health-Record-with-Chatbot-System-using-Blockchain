@@ -5,7 +5,7 @@ import { PORT } from "./config.js";
 import doctorRoute from "./routes/doctor.js";
 import patientRoute from "./routes/patient.js";
 const app = express();
-app.use(cors());
+app.use(cors()); 
 app.use(bodyParser.json());
 app.use("/api/doctor", doctorRoute);
 app.use("/api/patient", patientRoute);

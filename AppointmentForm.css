@@ -14,7 +14,7 @@
     position: relative;
 }
 .form-title span::before {
-    content: '';
+    content: ''; 
     position: absolute;
     width: 75%;
     height: 4px;
